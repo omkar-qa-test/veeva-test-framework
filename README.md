@@ -24,12 +24,27 @@ A robust test automation framework for web application testing using:
 1. Clone repository:  
    git clone https://github.com/omkar-qa-test/veeva-test-framework.git
 2. Execution
-   Change current directory to:
-     cd veeva-test-framework\framework
-    Run all tests:   
-      mvn clean test
+   
+   2.1 Change current directory to:
+
+         cd veeva-test-framework\framework
+   
+    2.2 Run all tests:
+    
+         mvn clean test
+   
 4. Reports
-    After execution, find reports at:
-    Basic JSON :  target/cucumber-reports/cpLandingPage.json
-    Detailed HTML: target/cucumber-reports/cucumber-html-reports/feature-overview.html
-    Archived reports: target/archived-reports/
+
+   After execution, find reports at:
+   
+    Basic JSON :
+
+      **target/cucumber-reports/cpLandingPage.json**
+
+   Detailed HTML:
+
+      **target/cucumber-reports/cucumber-html-reports/feature-overview.html**
+
+   Archived reports:
+
+      **target/archived-reports/**
